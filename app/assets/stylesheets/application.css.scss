@@ -8,6 +8,11 @@ form {
   max-width: 500px;
 }
 
+body {
+  padding-top: 70px;
+}
+
+
 header {
   @extend .page-header;
   position: relative;
