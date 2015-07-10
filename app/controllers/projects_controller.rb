@@ -24,6 +24,10 @@ class ProjectsController < ApplicationController
 		end
 	end
 
+	def show
+  	@project = Project.find(params[:id])
+	end
+
 	def edit
   	@project = Project.find(params[:id])
 	end
@@ -36,7 +40,7 @@ class ProjectsController < ApplicationController
   	else
     	flash.now[:alert] = "Project has not been updated."
     	render "edit"
-		end 
+		end
 	end
 
 end
