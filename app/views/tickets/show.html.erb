@@ -1,3 +1,8 @@
+<div id="ticket">
+  <header>
+    <h1><%= @project.name %></h1>
+  </header>
+
 <header>
   <h2><%= @ticket.name %></h2>
   <ul class="actions">
@@ -20,12 +25,5 @@
    </tr>
 </table>
 
-<div id="ticket">
-  <header>
-    <h1><%= @project.name %></h1>
-  </header>
-  <header>
-    <h2><%= @ticket.name %></h2>
-</header>
   <%= simple_format(@ticket.description) %>
 </div>
