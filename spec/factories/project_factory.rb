@@ -1,1 +1,5 @@
-FactoryGirl.define do  factory :project do    name "Example project"  endend
+FactoryGirl.define do
+  factory :project do
+    name 'Example project'
+  end
+end
