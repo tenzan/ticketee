@@ -35,6 +35,7 @@ gem "bootstrap-sass", "~> 3.3"
 gem "font-awesome-rails", "~> 4.3"
 gem "simple_form", "~> 3.1.0"
 gem "devise", "~> 3.5.1"
+gem 'pundit', '~> 1.0.1'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
