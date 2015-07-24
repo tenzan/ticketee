@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   end
 
   devise_for :users
-  root "projects#index"
+  root 'pages#about'
 
   get 'about', to: 'pages#about'
 
